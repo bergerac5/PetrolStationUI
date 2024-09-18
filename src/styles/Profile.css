@@ -1,0 +1,54 @@
+.profile{
+    flex: 1;
+}
+
+.profileHeader{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.edit{
+    background: yellow;
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    border-radius: 20px;
+    color: #1100ff;
+}
+
+.edit .icon{
+    font-size: 20px;
+    transform: 0.5 ease-in-out;
+}
+
+.proflePicture{
+    background: #fff;  
+    border-radius: 20px;
+    width: 250px;
+    font-size: 200px;
+    color: rgb(0, 255, 238);
+    margin-top: 15px;
+}
+
+.userProfile{
+    height: 80%;
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    background: grey;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.userInfo {
+    display: flex;
+    flex-direction: column;
+    background: #00ff37;
+    border-radius: 15px;
+    padding: 10px;
+    margin-top: 50px;    
+}
+

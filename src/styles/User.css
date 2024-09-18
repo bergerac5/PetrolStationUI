@@ -1,0 +1,142 @@
+.user {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  h2 {
+    color: #333;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  thead th {
+    background-color: #f2f2f2;
+    padding: 10px;
+    text-align: left;
+    border-bottom: 2px solid #ddd;
+    cursor: pointer; /* Added cursor pointer for indicating sortable columns */
+  }
+  
+  tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  tbody tr:hover {
+    background-color: #f1f1f1;
+  }
+  
+  tbody td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  button {
+    padding: 5px 10px;
+    margin-right: 5px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  .delete-button {
+    background-color: #e74c3c;
+    color: white;
+  }
+  
+  .delete-button:hover {
+    background-color: #c0392b;
+  }
+  
+  .delete-update {
+    background-color: #15fa00;
+    color: white;
+  }
+  
+  .delete-update:hover {
+    background-color: #136b81;
+    color: white;
+  }
+  
+  button a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  button a:hover {
+    text-decoration: underline;
+  }
+  
+  .pagination {
+    display: flex;
+    justify-content: center;
+    padding: 1em 0;
+    list-style-type: none;
+  }
+  
+  .pagination .page-item {
+    margin: 0 5px;
+  }
+  
+  .pagination .page-item .page-link {
+    display: block;
+    padding: 8px 16px;
+    color: #007bff;
+    text-decoration: none;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    transition: background-color 0.2s, color 0.2s;
+  }
+  
+  .pagination .page-item .page-link:hover {
+    background-color: #f1f1f1;
+  }
+  
+  .pagination .page-item.active .page-link {
+    background-color: #007bff;
+    color: white;
+    border: 1px solid #007bff;
+  }
+  
+  .pagination .page-item .page-link:focus,
+  .pagination .page-item .page-link:active {
+    outline: none;
+}
+
+thead th.sort-asc::after {
+    content: '▲';
+    font-size: 0.8em;
+    margin-left: 5px;
+    color: #007bff;
+  }
+  
+  thead th.sort-desc::after {
+    content: '▼';
+    font-size: 0.8em;
+    margin-left: 5px;
+    color: #007bff;
+  }
+
+  /* New filter input styles */
+.filter {
+    padding: 10px;
+    margin-bottom: 20px; /* Adds space between the input field and the table */
+    width: 100%;
+    max-width: 400px; /* Limits the width of the input field */
+    box-sizing: border-box; /* Ensures padding and border are included in the element's total width and height */
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  .filter:focus {
+    outline: none;
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+  } 
+  
+  
+  

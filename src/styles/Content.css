@@ -1,0 +1,103 @@
+.content{
+    width: 75%;
+}
+
+.contentHeader{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.headerTittle{
+    color: blue;
+}
+
+.headerActivity{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.searchBox{
+    background: rgba(50, 255, 31, 0.867);
+    padding: 8px 10px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.searchBox input{
+    border: none;
+    outline: none;
+    background: transparent;
+    padding: 5px;
+}
+
+.searchBox .icon{
+    color: rgb(255, 255, 39);
+    font-size: 22px;
+    cursor: pointer;
+    transition: 0.5 ease-in-out;
+}
+
+.notify{
+    background: #dde6ed;
+    padding: 12px;
+    border-radius: 10px;
+    color: #1100ff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon:hover{
+    transform: scale(1.3);
+    cursor: pointer;
+}
+
+/* cardContainer */
+
+.cardContainer{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-top: 2rem;
+}
+
+.card{
+    flex: 1;
+    background: #51ff00;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    transition: 0.5 ease-in-out;
+}
+
+.card:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+.cardCover{
+    background: yellow;
+    font-size: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    border-radius: 20px;
+    color: #1100ff;
+}
+
+.cardTitle{
+    background: rgb(32, 32, 255);
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 14px;
+    color: #dde6ed;
+    border-radius: 10px;
+}
